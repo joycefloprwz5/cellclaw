@@ -239,7 +239,7 @@ class OpenAIProvider @Inject constructor() : Provider {
     }
 
     companion object {
-        const val API_URL = "https://api.openai.com/v1/chat/completions"
-        const val DEFAULT_MODEL = "gpt-5.2"
+        const val API_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
+        const val DEFAULT_MODEL = "nvidia/nemotron-3.5-super-vl-120b-a12b"
     }
 }
